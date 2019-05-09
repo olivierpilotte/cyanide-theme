@@ -20,7 +20,15 @@
     //  Cyanide Theme
     //  Custom color (rgb): 100,178,219
     //  Custom color (hex): 64b2db
-    //
+    //  Another color (hex): 164687
+
+    // Title Bar
+    {
+        "class": "title_bar",
+        "fg": [225, 225, 225],
+        "bg": [0, 0, 0]
+    },
+
 
     // Default button state
     {
@@ -29,7 +37,7 @@
         "min_size": [60,0],
         "layer0.texture": "",
         "layer0.opacity": 1,
-        "layer0.tint": [10,10,10],
+        "layer0.tint": [0,0,0],
         "layer0.inner_margin": [6,6]
     },
 
@@ -56,7 +64,7 @@
     // Button group middle
     {
         "class": "icon_button_control",
-        "layer1.tint":[10,10,10],
+        "layer1.tint":[0,0,0],
         "layer1.opacity":1,
         "content_margin": 7
     },
@@ -64,12 +72,12 @@
         "class": "icon_button_control",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer1.tint":[10,10,10]
+        "layer1.tint":[0,0,0]
     },
     {
         "class": "icon_button_control",
         "attributes": ["hover"],
-        "layer1.tint":[40,40,40]
+        "layer1.tint":[10,10,10]
     },
 
     //
@@ -181,7 +189,7 @@
         "class": "icon_in_selection",
         "layer0.texture": "Theme - Cyanide/Cyanide/selection.png",
         "layer0.opacity": 0.3,
-        "content_margin": 9
+        "content_margin": 10
     },
     {
         "class": "icon_in_selection",
@@ -287,7 +295,7 @@
     {
         "class": "overlay_control",
         "layer0.opacity": 1,
-        "layer1.tint": [10,10,10],
+        "layer1.tint": [0,0,0],
         "layer1.inner_margin": 0,
         "layer1.opacity": 1,
         "content_margin": 0
@@ -300,13 +308,13 @@
     {
         "class": "quick_panel",
         "row_padding": 10,
-        "layer0.tint": [15,15,15],
+        "layer0.tint": [0,0,0],
         "layer0.opacity": 1
     },
     {
         "class": "quick_panel_row",
         "layer0.texture": "",
-        "layer0.tint": [15,15,15],
+        "layer0.tint": [0,0,0],
         "layer0.inner_margin": 10,
         "layer0.opacity": 1
     },
@@ -343,7 +351,7 @@
     {
         "class": "mini_quick_panel_row",
         "layer0.texture": "",
-        "layer0.tint": [15,15,15],
+        "layer0.tint": [0,0,0],
         "layer0.opacity": 1
     },
     {
@@ -390,7 +398,7 @@
     {
         "class": "puck_control",
         "layer0.texture": "",
-        "layer0.tint":[60,60,60],
+        "layer0.tint":[20,20,20],
         "layer0.opacity": 1,
         "layer0.inner_margin": [0,0],
         "content_margin": [6,0],
@@ -402,7 +410,7 @@
         "class": "puck_control",
         "attributes": ["horizontal"],
         "layer0.texture": "",
-        "layer0.tint":[60,60,60],
+        "layer0.tint":[20,20,20],
         "layer0.inner_margin": [0,0],
         "content_margin": [12,6],
         "blur": false
@@ -429,7 +437,7 @@
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
         "layer0.texture": "",
-        "layer0.tint": [40,40,40],
+        "layer0.tint": [0,0,0],
         "layer0.inner_margin": 0,
         "blur": false
     },
@@ -470,7 +478,7 @@
         "settings": ["overlay_scroll_bars"],
         "attributes": ["dark"],
         "layer0.texture": "",
-        "layer0.tint": [100,178,219]
+        "layer0.tint": [100,200,255]
 
     },
 
@@ -480,7 +488,20 @@
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal","dark"],
         "layer0.texture": "",
-        "layer0.tint": [100,178,219]
+        "layer0.tint": [100,200,255]
+    },
+
+
+    //
+    // MAIN
+    //
+    {
+        "class": "window",
+        "layer0.texture": "",
+        "layer0.opacity": 1,
+        "layer0.tint": [0,0,0],
+        "layer0.inner_margin": [1,5,2,1],
+        "content_margin": [0,4,0,0]
     },
 
     //
@@ -492,7 +513,7 @@
         "class": "sidebar_container",
         "layer0.texture": "",
         "layer0.opacity": 1,
-        "layer0.tint": [10,10,10],
+        "layer0.tint": [0,0,0],
         "layer0.inner_margin": [1,5,2,1],
         "content_margin": [0,4,0,0]
     },
@@ -511,7 +532,7 @@
     {
         "class": "tree_row",
         "layer0.texture": "",
-        "layer0.tint": [17,17,17],
+        "layer0.tint": [0,0,0],
         "layer0.opacity": 0,
         "layer0.inner_margin": [1,1]
     },
@@ -526,7 +547,7 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [210,210,210],
+        "color": [225,225,225],
         "font.bold": true,
         "shadow_color": [0,0,0],
         "shadow_offset": [0,0]
@@ -542,7 +563,7 @@
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [125,125,125],
+        "color": [225,225,225],
         "shadow_color": [0,0,0],
         "shadow_offset": [0,0]
     },
@@ -551,12 +572,12 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-        "color": [190,190,190]
+        "color": [225,225,225]
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable","hover"]}],
-        "color": [235,235,235]
+        "color": [225,225,225]
     },
     {
         "class": "sidebar_label",
@@ -568,8 +589,15 @@
     // Sidebar entry selected
     {
         "class": "sidebar_label",
+        "parents": [{"class": "tree_row","attributes": ["hover"]}],
+        "color": [100,200,255],
+        "shadow_color": [0,0,0],
+        "shadow_offset": [0,0]
+    },
+    {
+        "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "color": [210,210,210],
+        "color": [100,200,255],
         "shadow_color": [0,0,0],
         "shadow_offset": [0,0]
     },
@@ -744,7 +772,7 @@
     // Status bar container
     {
         "class": "status_bar",
-        "layer0.tint": [10,10,10],
+        "layer0.tint": [0,0,0],
         "layer0.opacity": 1,
         "layer0.inner_margin": 0,
         "content_margin": [8,8,8,8]
@@ -853,20 +881,20 @@
     {
         "class": "tab_label",
         "fade": true,
-        "fg": [170,170,170],
+        "fg": [225,225,225],
         "shadow_color": [25,25,25],
         "shadow_offset": [0,-1]
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control","attributes": ["hover"]}],
-        "fg": [200,200,200],
+        "fg": [225,225,225],
         "shadow_color": [30,30,30]
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control","attributes": ["selected"]}],
-        "fg": [230,230,230],
+        "fg": [100,200,255],
         "shadow_color": [35,35,35]
     },
 
@@ -878,7 +906,7 @@
     {
         "class": "tabset_control",
         "layer0.texture": "",
-        "layer0.tint": [10,10,10],
+        "layer0.tint": [0,0,0],
         "layer0.inner_margin": 0,
         "layer0.opacity": 1,
         "content_margin": 0,
@@ -921,7 +949,7 @@
         "max_margin_trim": 0,
         "hit_test_level": 0,
         "layer0.texture": "",
-        "layer0.tint": [10,10,10],
+        "layer0.tint": [0,0,0],
         "layer0.inner_margin": [5,5],
         "layer0.opacity": 1
     },
@@ -938,14 +966,14 @@
         "class": "tab_control",
         "attributes": ["hover"],
         "layer0.texture": "",
-        "layer0.tint": [20,20,20]
+        "layer0.tint": [0,0,0]
     },
 
     // Tab active state
     {
         "class": "tab_control",
         "attributes": ["selected"],
-        "layer0.tint": [17, 17, 17],
+        "layer0.tint": [0,0,0],
         "layer0.opacity": 1
     },
 
@@ -963,7 +991,7 @@
 
     {
         "class": "sheet_container_control",
-        "layer0.tint": [20,20,20]
+        "layer0.tint": [0,0,0]
     },
 
     //
@@ -973,7 +1001,7 @@
     {
         "class": "grid_layout_control",
         "border_size": 1,
-        "border_color": [10,10,10]
+        "border_color": [0,0,0]
     },
 
     //
@@ -994,7 +1022,7 @@
         "class": "text_line_control",
         "layer0.opacity": 1,
         "layer0.inner_margin": [4, 5, 4, 3],
-        "layer0.tint": [10,10,10],
+        "layer0.tint": [0,0,0],
 
         "layer1.opacity": 1.0,
         "layer1.inner_margin": [4, 5, 4, 3],
@@ -1011,7 +1039,7 @@
         "class": "panel_control",
         "layer0.inner_margin": [0,0],
         "layer0.opacity": 1,
-        "layer0.tint": [10,10,10],
+        "layer0.tint": [0,0,0],
         "content_margin": 0
     },
 
@@ -1045,7 +1073,7 @@
     {
         "class": "tool_tip_control",
         "layer0.texture": "",
-        "layer0.tint": [60,60,60],
+        "layer0.tint": [0,0,0],
         "layer0.inner_margin": [1,1],
         "layer0.opacity": 1,
         "content_margin": [4,4]
@@ -1149,132 +1177,6 @@
         "font.size": 12.5
     },
     // END Small UI font setting
-
-    // Contrasted sidebar setting
-    {
-        "class": "sidebar_container",
-        "settings": ["contrasted_sidebar"],
-        "layer0.tint": [18,18,18]
-    },
-    {
-        "class": "tree_row",
-        "settings": ["contrasted_sidebar"],
-        "layer0.tint": [30,30,30]
-    },
-    // END Contrasted sidebar setting
-
-    // Contrasted tab setting
-    {
-        "class": "tabset_control",
-        "settings": ["contrasted_tabs"],
-        "layer0.tint": [18,18,18]
-    },
-    {
-        "class": "tab_control",
-        "settings": ["contrasted_tabs"],
-        "layer0.tint": [18,18,18]
-    },
-    {
-        "class": "tab_control",
-        "settings": ["contrasted_tabs"],
-        "attributes": ["hover"],
-        "layer0.tint": [30,30,30]
-    },
-    {
-        "class": "tab_control",
-        "settings": ["contrasted_tabs"],
-        "attributes": ["selected"],
-        "layer0.tint": [30,30,30]
-    },
-    // END Contrasted tab setting
-
-    // Contrasted light sidebar setting
-    {
-        "class": "sidebar_container",
-        "settings": ["contrasted_light_sidebar"],
-        "layer0.tint": [45,45,45]
-    },
-    {
-        "class": "tree_row",
-        "settings": ["contrasted_light_sidebar"],
-        "layer0.tint": [30,30,30]
-    },
-    // END Contrasted light sidebar setting
-
-    // Contrasted light tab setting
-    {
-        "class": "tabset_control",
-        "settings": ["contrasted_light_tabs"],
-        "layer0.tint": [45,45,45]
-    },
-    {
-        "class": "tab_control",
-        "settings": ["contrasted_light_tabs"],
-        "layer0.tint": [45,45,45]
-    },
-    {
-        "class": "tab_control",
-        "settings": ["contrasted_light_tabs"],
-        "attributes": ["hover"],
-        "layer0.tint": [30,30,30]
-    },
-    {
-        "class": "tab_control",
-        "settings": ["contrasted_light_tabs"],
-        "attributes": ["selected"],
-        "layer0.tint": [30,30,30]
-    },
-    // END Contrasted light tab setting
-
-    // Contrasted quick panel setting
-    {
-        "class": "quick_panel",
-        "settings": ["contrasted_quick_panel"],
-        "layer0.tint": [20,20,20]
-    },
-    {
-        "class": "quick_panel_row",
-        "settings": ["contrasted_quick_panel"],
-        "layer0.tint": [20,20,20]
-    },
-    {
-        "class": "mini_quick_panel_row",
-        "settings": ["contrasted_quick_panel"],
-        "layer0.tint": [20,20,20]
-    },
-    {
-        "class": "mini_quick_panel_row",
-        "settings": ["contrasted_quick_panel"],
-        "attributes": ["selected"],
-        "layer0.texture": "",
-        "layer0.tint": [100,178,219]
-    },
-    // END Contrasted quick panel setting
-
-    // Contrasted light quick panel setting
-    {
-        "class": "quick_panel",
-        "settings": ["contrasted_light_quick_panel"],
-        "layer0.tint": [35,35,35]
-    },
-    {
-        "class": "quick_panel_row",
-        "settings": ["contrasted_light_quick_panel"],
-        "layer0.tint": [35,35,35]
-    },
-    {
-        "class": "mini_quick_panel_row",
-        "settings": ["contrasted_light_quick_panel"],
-        "layer0.tint": [35,35,35]
-    },
-    {
-        "class": "mini_quick_panel_row",
-        "settings": ["contrasted_light_quick_panel"],
-        "attributes": ["selected"],
-        "layer0.texture": "",
-        "layer0.tint": [100,178,219]
-    },
-    // END Contrasted light quick panel setting
 
     // Centurion folder icons
     {

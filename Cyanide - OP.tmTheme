@@ -20,7 +20,7 @@
     //  Custom color (rgb): 100,178,219
     //  Custom color (hex): 64b2db
     //  Background   (rgb): 10,10,10
-    //  Background   (hex): 0a0a0a
+    //  Background   (hex): 000000
     //
 -->
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -98,7 +98,7 @@
                     <key>fontStyle</key>
                     <string />
                     <key>foreground</key>
-                    <string>#64b2db</string>
+                    <string>#64c8ff</string>
                 </dict>
             </dict>
             <dict>
@@ -124,7 +124,7 @@
                     <key>fontStyle</key>
                     <string />
                     <key>foreground</key>
-                    <string>#64b2db</string>
+                    <string>#64c8ff</string>
                 </dict>
             </dict>
             <dict>
@@ -161,7 +161,7 @@
                     <key>fontStyle</key>
                     <string />
                     <key>foreground</key>
-                    <string>#64b2db</string>
+                    <string>#64c8ff</string>
                 </dict>
             </dict>
             <dict>
@@ -174,7 +174,7 @@
                     <key>background</key>
                     <string>#222222</string>
                     <key>foreground</key>
-                    <string>#64b2db</string>
+                    <string>#64c8ff</string>
                 </dict>
             </dict>
             <dict>
@@ -244,7 +244,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#64b2db</string>
+                    <string>#64c8ff</string>
                 </dict>
             </dict>
             <dict>
@@ -255,7 +255,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#64b2db</string>
+                    <string>#64c8ff</string>
                 </dict>
             </dict>
             <dict>
@@ -266,7 +266,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#64b2db</string>
+                    <string>#64c8ff</string>
                 </dict>
             </dict>
             <dict>
@@ -277,7 +277,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#64b2db</string>
+                    <string>#64c8ff</string>
                 </dict>
             </dict>
             <dict>
@@ -288,7 +288,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#64b2db</string>
+                    <string>#64c8ff</string>
                 </dict>
             </dict>
             <dict>
@@ -389,7 +389,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#64b2db</string>
+                    <string>#64c8ff</string>
                 </dict>
             </dict>
             <dict>
@@ -415,7 +415,7 @@
                     <key>background</key>
                     <string>#f5f7f8</string>
                     <key>foreground</key>
-                    <string>#64b2db</string>
+                    <string>#64c8ff</string>
                 </dict>
             </dict>
             <dict>
@@ -437,7 +437,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#64b2db66</string>
+                    <string>#64c8ff66</string>
                 </dict>
             </dict>
             <dict>
@@ -472,7 +472,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#64b2db</string>
+                    <string>#64c8ff</string>
                     <key>background</key>
                     <string>#0a0a0b</string>
                 </dict>
