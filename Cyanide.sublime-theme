@@ -18,15 +18,15 @@
 
     //
     //  Cyanide Theme
-    //  Custom color (rgb): 100,178,219
-    //  Custom color (hex): 64b2db
+    //  Custom color (rgb): 65,122,179
+    //  Custom color (hex): 417ab3
     //  Another color (hex): 164687
 
     // Title Bar
     {
         "class": "title_bar",
         "fg": [225, 225, 225],
-        "bg": [0, 0, 0]
+        "bg": [0, 0, 0],
     },
 
 
@@ -248,14 +248,14 @@
     {
         "class": "auto_complete_label",
         "fg": [210,210,210],
-        "match_fg": [100,178,219],
+        "match_fg": [65,122,179],
         "selected_fg": [255,255,255],
         "selected_match_fg": [255,255,255]
     },
     {
         "class": "table_row",
         "layer0.texture": "",
-        "layer0.tint":[100,178,219],
+        "layer0.tint":[65,122,179],
         "layer0.opacity": 0,
         "layer0.inner_margin": [3,1]
     },
@@ -307,7 +307,7 @@
 
     {
         "class": "quick_panel",
-        "row_padding": 10,
+        "row_padding": 5,
         "layer0.tint": [0,0,0],
         "layer0.opacity": 1
     },
@@ -322,12 +322,12 @@
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [100,178,219]
+        "layer0.tint": [65,122,179]
     },
     {
         "class": "quick_panel_label",
-        "fg": [240,240,240],
-        "match_fg": [100,178,219],
+        "fg": [230,230,230],
+        "match_fg": [65,122,179],
         "selected_fg": [255,255,255],
         "selected_match_fg": [255,255,255]
     },
@@ -358,7 +358,7 @@
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [100,178,219]
+        "layer0.tint": [65,122,179]
     },
 
     //
@@ -369,7 +369,7 @@
     {
         "class": "scroll_bar_control",
         "layer0.texture": "",
-        "layer0.tint":[20,20,20],
+        "layer0.tint": [20,20,20],
         "layer0.opacity": 1,
         "layer0.inner_margin": [0,0],
         "blur": false
@@ -380,7 +380,7 @@
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
         "layer0.texture": "",
-        "layer0.tint":[20,20,20],
+        "layer0.tint": [20,20,20],
         "layer0.inner_margin": [0,0],
         "blur": false
     },
@@ -389,7 +389,7 @@
     {
         "class": "scroll_corner_control",
         "layer0.texture": "",
-        "layer0.tint":[20,20,20],
+        "layer0.tint": [20,20,20],
         "layer0.inner_margin": [0,0],
         "layer0.opacity": 1
     },
@@ -398,7 +398,7 @@
     {
         "class": "puck_control",
         "layer0.texture": "",
-        "layer0.tint":[20,20,20],
+        "layer0.tint": [20,20,20],
         "layer0.opacity": 1,
         "layer0.inner_margin": [0,0],
         "content_margin": [6,0],
@@ -410,7 +410,7 @@
         "class": "puck_control",
         "attributes": ["horizontal"],
         "layer0.texture": "",
-        "layer0.tint":[20,20,20],
+        "layer0.tint": [20,20,20],
         "layer0.inner_margin": [0,0],
         "content_margin": [12,6],
         "blur": false
@@ -457,7 +457,7 @@
         "settings": ["overlay_scroll_bars"],
         "layer0.texture": "",
         "layer0.inner_margin": [0,0],
-        "content_margin": [1,20],
+        "content_margin": [2,10],
         "blur": true
     },
 
@@ -468,7 +468,7 @@
         "attributes": ["horizontal"],
         "layer0.texture": "",
         "layer0.inner_margin": [5,0],
-        "content_margin": [20,1],
+        "content_margin": [10,2],
         "blur": true
     },
 
@@ -478,7 +478,7 @@
         "settings": ["overlay_scroll_bars"],
         "attributes": ["dark"],
         "layer0.texture": "",
-        "layer0.tint": [100,200,255]
+        "layer0.tint": [65,122,179]
 
     },
 
@@ -488,7 +488,7 @@
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal","dark"],
         "layer0.texture": "",
-        "layer0.tint": [100,200,255]
+        "layer0.tint": [65,122,179]
     },
 
 
@@ -515,15 +515,15 @@
         "layer0.opacity": 1,
         "layer0.tint": [0,0,0],
         "layer0.inner_margin": [1,5,2,1],
-        "content_margin": [0,4,0,0]
+        "content_margin": [0,-16,0,0]
     },
 
     // Sidebar tree
     {
         "class": "sidebar_tree",
-        "row_padding": [8,4],
-        "indent":16,
-        "indent_offset": 16,
+        "row_padding": [5,3],
+        "indent": 17,
+        "indent_offset": 20,
         "indent_top_level": false,
         "dark_content": true
     },
@@ -565,7 +565,9 @@
         "class": "sidebar_label",
         "color": [225,225,225],
         "shadow_color": [0,0,0],
-        "shadow_offset": [0,0]
+        "shadow_offset": [0,0],
+        "font.face": "courier",
+        "font.size": 14,
     },
 
     // Sidebar folder entry
@@ -590,14 +592,14 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "color": [100,200,255],
+        "color": [65,122,179],
         "shadow_color": [0,0,0],
         "shadow_offset": [0,0]
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "color": [100,200,255],
+        "color": [65,122,179],
         "shadow_color": [0,0,0],
         "shadow_offset": [0,0]
     },
@@ -628,7 +630,7 @@
         "attributes": ["dirty"],
         "layer0.texture": "Theme - Cyanide/Cyanide/circle.png",
         "layer0.opacity": 1,
-        "layer0.tint": [100,178,219]
+        "layer0.tint": [65,122,179]
     },
     {
         "class": "close_button",
@@ -680,14 +682,14 @@
         "class": "disclosure_button_control",
         "content_margin": [8,8],
         "layer0.texture": "Theme - Cyanide/Cyanide/folder-closed.png",
-        "layer0.tint": [100,178,219],
+        "layer0.tint": [65,122,179],
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
     },
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.tint":[100,178,219]
+        "layer0.tint":[65,122,179]
     },
     {
         "class": "disclosure_button_control",
@@ -812,7 +814,7 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["hover"]}],
         "layer0.opacity": 1,
-        "layer0.tint": [100,178,219]
+        "layer0.tint": [65,122,179]
 
     },
     {
@@ -826,7 +828,7 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
         "layer0.texture": "Theme - Cyanide/Cyanide/circle.png",
-        "layer0.tint": [100,178,219],
+        "layer0.tint": [65,122,179],
         "layer0.opacity": 1
     },
     {
@@ -881,21 +883,23 @@
     {
         "class": "tab_label",
         "fade": true,
-        "fg": [225,225,225],
+        "fg": [200,200,200],
         "shadow_color": [25,25,25],
-        "shadow_offset": [0,-1]
+        "shadow_offset": [0,-1],
+        "font.face": "courier",
+        "font.size": 14
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control","attributes": ["hover"]}],
-        "fg": [225,225,225],
-        "shadow_color": [30,30,30]
+        "fg": [255,255,255],
+        "shadow_color": [0,0,0]
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control","attributes": ["selected"]}],
-        "fg": [100,200,255],
-        "shadow_color": [35,35,35]
+        "fg": [65,122,179],
+        "shadow_color": [0,0,0]
     },
 
     //
@@ -910,10 +914,10 @@
         "layer0.inner_margin": 0,
         "layer0.opacity": 1,
         "content_margin": 0,
-        "tab_overlap":0,
+        "tab_overlap": 0,
         "tab_width": 45,
         "tab_min_width": 45,
-        "tab_height": 30,
+        "tab_height": 40,
         "mouse_wheel_switch": false
     },
 
@@ -1010,7 +1014,7 @@
 
     {
         "class": "minimap_control",
-        "viewport_color": [255,255,255,30]
+        "viewport_color": [255,255,255,20]
     },
 
     //
@@ -1024,7 +1028,7 @@
         "layer0.inner_margin": [4, 5, 4, 3],
         "layer0.tint": [0,0,0],
 
-        "layer1.opacity": 1.0,
+        "layer1.opacity": 1,
         "layer1.inner_margin": [4, 5, 4, 3],
         "tint_index": 1,
         "content_margin": 8
@@ -1089,7 +1093,7 @@
     {
         "class": "sidebar_label",
         "settings": ["ubuntu_mono_ui"],
-        "font.face": "Ubuntu Mono"
+        "font.face": "Ubuntu Mono",
     },
     {
         "class": "label_control",
@@ -1099,7 +1103,7 @@
     {
         "class": "tab_label",
         "settings": ["ubuntu_mono_ui"],
-        "font.face": "Ubuntu Mono"
+        "font.face": "Ubuntu Mono",
     },
     // END Ubuntu Mono UI Setting
 
@@ -1107,7 +1111,7 @@
     {
         "class": "sidebar_label",
         "settings": ["monaco_ui"],
-        "font.face": "Monaco"
+        "font.face": "Monaco",
     },
     {
         "class": "label_control",
@@ -1146,7 +1150,7 @@
     {
         "class": "sidebar_label",
         "settings": ["large_ui_font"],
-        "font.size": 14
+        "font.size": 14,
     },
     {
         "class": "label_control",

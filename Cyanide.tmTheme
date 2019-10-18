@@ -18,7 +18,7 @@
     //
     //  Cyanide Theme
     //  Custom color (rgb): 100,178,219
-    //  Custom color (hex): 64b2db
+    //  Custom color (hex): 417ab3
     //  Background   (rgb): 10,10,10
     //  Background   (hex): 0a0a0a
     //
@@ -38,15 +38,15 @@
                     <key>background</key>
                     <string>#000000</string>
                     <key>caret</key>
-                    <string>#CCCCCC</string>
+                    <string>#FFFFFF</string>
                     <key>foreground</key>
-                    <string>#CCCCCC</string>
+                    <string>#FFFFFF</string>
                     <key>invisibles</key>
                     <string>#6A6A6A</string>
                     <key>lineHighlight</key>
                     <string>#111111</string>
                     <key>selection</key>
-                    <string>#252525</string>
+                    <string>#222222</string>
                     <key>gutterForeground</key>
                     <string>#333333</string>
                     <key>guide</key>
@@ -81,11 +81,33 @@
                 <key>name</key>
                 <string>Variable, String Link, Tag Name</string>
                 <key>scope</key>
-                <string>variable, support.other.variable, string.other.link, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag</string>
+                <string>variable, support.other.variable, string.other.link</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
                     <string>#787878</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Variable, String Link, Tag Name</string>
+                <key>scope</key>
+                <string>entity.name.tag, entity.other.attribute-name, declaration.tag</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#FFFFFF</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>name</key>
+                <string>Variable, String Link, Tag Name</string>
+                <key>scope</key>
+                <string>meta.tag</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#417ab3</string>
                 </dict>
             </dict>
             <dict>
@@ -98,7 +120,7 @@
                     <key>fontStyle</key>
                     <string />
                     <key>foreground</key>
-                    <string>#64b2db</string>
+                    <string>#417ab3</string>
                 </dict>
             </dict>
             <dict>
@@ -124,7 +146,7 @@
                     <key>fontStyle</key>
                     <string />
                     <key>foreground</key>
-                    <string>#64b2db</string>
+                    <string>#417ab3</string>
                 </dict>
             </dict>
             <dict>
@@ -161,7 +183,7 @@
                     <key>fontStyle</key>
                     <string />
                     <key>foreground</key>
-                    <string>#64b2db</string>
+                    <string>#417ab3</string>
                 </dict>
             </dict>
             <dict>
@@ -174,7 +196,7 @@
                     <key>background</key>
                     <string>#222222</string>
                     <key>foreground</key>
-                    <string>#64b2db</string>
+                    <string>#417ab3</string>
                 </dict>
             </dict>
             <dict>
@@ -244,7 +266,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#64b2db</string>
+                    <string>#417ab3</string>
                 </dict>
             </dict>
             <dict>
@@ -255,7 +277,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#64b2db</string>
+                    <string>#417ab3</string>
                 </dict>
             </dict>
             <dict>
@@ -266,7 +288,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#64b2db</string>
+                    <string>#417ab3</string>
                 </dict>
             </dict>
             <dict>
@@ -277,7 +299,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#64b2db</string>
+                    <string>#417ab3</string>
                 </dict>
             </dict>
             <dict>
@@ -288,7 +310,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#64b2db</string>
+                    <string>#417ab3</string>
                 </dict>
             </dict>
             <dict>
@@ -389,7 +411,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#64b2db</string>
+                    <string>#417ab3</string>
                 </dict>
             </dict>
             <dict>
@@ -415,7 +437,7 @@
                     <key>background</key>
                     <string>#f5f7f8</string>
                     <key>foreground</key>
-                    <string>#64b2db</string>
+                    <string>#417ab3</string>
                 </dict>
             </dict>
             <dict>
@@ -437,7 +459,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#64b2db66</string>
+                    <string>#417ab366</string>
                 </dict>
             </dict>
             <dict>
@@ -472,7 +494,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#64b2db</string>
+                    <string>#417ab3</string>
                     <key>background</key>
                     <string>#0a0a0b</string>
                 </dict>
